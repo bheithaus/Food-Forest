@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C18B83B15BA2D2100F1E0A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C18B83A15BA2D2100F1E0A9 /* UIKit.framework */; };
+		2C18B83D15BA2D2100F1E0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C18B83C15BA2D2100F1E0A9 /* Foundation.framework */; };
+		2C18B83F15BA2D2100F1E0A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C18B83E15BA2D2100F1E0A9 /* CoreGraphics.framework */; };
+		2C18B84515BA2D2100F1E0A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B84315BA2D2100F1E0A9 /* InfoPlist.strings */; };
+		2C18B84715BA2D2100F1E0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C18B84615BA2D2100F1E0A9 /* main.m */; };
+		2C18B84B15BA2D2100F1E0A9 /* FFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C18B84A15BA2D2100F1E0A9 /* FFAppDelegate.m */; };
+		2C18B84E15BA2D2100F1E0A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B84C15BA2D2100F1E0A9 /* MainStoryboard.storyboard */; };
+		2C18B85115BA2D2100F1E0A9 /* FFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C18B85015BA2D2100F1E0A9 /* FFViewController.m */; };
+		2C18B86515BA2DD400F1E0A9 /* FF Climate Choice.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85815BA2DD400F1E0A9 /* FF Climate Choice.psd */; };
+		2C18B86615BA2DD400F1E0A9 /* FF Welcome.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85915BA2DD400F1E0A9 /* FF Welcome.psd */; };
+		2C18B86715BA2DD400F1E0A9 /* arid.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85B15BA2DD400F1E0A9 /* arid.gif */; };
+		2C18B86815BA2DD400F1E0A9 /* climates in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85C15BA2DD400F1E0A9 /* climates */; };
+		2C18B86915BA2DD400F1E0A9 /* FF-Climate-Choice.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85D15BA2DD400F1E0A9 /* FF-Climate-Choice.gif */; };
+		2C18B86A15BA2DD400F1E0A9 /* FF-Welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85E15BA2DD400F1E0A9 /* FF-Welcome.gif */; };
+		2C18B86B15BA2DD400F1E0A9 /* med.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B85F15BA2DD400F1E0A9 /* med.gif */; };
+		2C18B86C15BA2DD400F1E0A9 /* pilgrim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B86015BA2DD400F1E0A9 /* pilgrim.gif */; };
+		2C18B86D15BA2DD400F1E0A9 /* pilgrim2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B86115BA2DD400F1E0A9 /* pilgrim2x.gif */; };
+		2C18B86E15BA2DD400F1E0A9 /* temperate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B86215BA2DD400F1E0A9 /* temperate.gif */; };
+		2C18B86F15BA2DD400F1E0A9 /* tropics.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C18B86315BA2DD400F1E0A9 /* tropics.gif */; };
+		2CDAEA1115BB4DCC00FFAD7A /* datetree.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAEA1015BB4DCC00FFAD7A /* datetree.gif */; };
+		2CDAEA1515BB4EB800FFAD7A /* arrowleft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAEA1315BB4EB800FFAD7A /* arrowleft.gif */; };
+		2CDAEA1615BB4EB800FFAD7A /* arrowright.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAEA1415BB4EB800FFAD7A /* arrowright.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C18B83615BA2D2100F1E0A9 /* Food Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Forest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C18B83A15BA2D2100F1E0A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C18B83C15BA2D2100F1E0A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C18B83E15BA2D2100F1E0A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C18B84215BA2D2100F1E0A9 /* Food Forest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food Forest-Info.plist"; sourceTree = "<group>"; };
+		2C18B84415BA2D2100F1E0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C18B84615BA2D2100F1E0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C18B84815BA2D2100F1E0A9 /* Food Forest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Food Forest-Prefix.pch"; sourceTree = "<group>"; };
+		2C18B84915BA2D2100F1E0A9 /* FFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFAppDelegate.h; sourceTree = "<group>"; };
+		2C18B84A15BA2D2100F1E0A9 /* FFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFAppDelegate.m; sourceTree = "<group>"; };
+		2C18B84D15BA2D2100F1E0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2C18B84F15BA2D2100F1E0A9 /* FFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFViewController.h; sourceTree = "<group>"; };
+		2C18B85015BA2D2100F1E0A9 /* FFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFViewController.m; sourceTree = "<group>"; };
+		2C18B85815BA2DD400F1E0A9 /* FF Climate Choice.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FF Climate Choice.psd"; sourceTree = "<group>"; };
+		2C18B85915BA2DD400F1E0A9 /* FF Welcome.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FF Welcome.psd"; sourceTree = "<group>"; };
+		2C18B85B15BA2DD400F1E0A9 /* arid.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arid.gif; sourceTree = "<group>"; };
+		2C18B85C15BA2DD400F1E0A9 /* climates */ = {isa = PBXFileReference; lastKnownFileType = file; path = climates; sourceTree = "<group>"; };
+		2C18B85D15BA2DD400F1E0A9 /* FF-Climate-Choice.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "FF-Climate-Choice.gif"; sourceTree = "<group>"; };
+		2C18B85E15BA2DD400F1E0A9 /* FF-Welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "FF-Welcome.gif"; sourceTree = "<group>"; };
+		2C18B85F15BA2DD400F1E0A9 /* med.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = med.gif; sourceTree = "<group>"; };
+		2C18B86015BA2DD400F1E0A9 /* pilgrim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pilgrim.gif; sourceTree = "<group>"; };
+		2C18B86115BA2DD400F1E0A9 /* pilgrim2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pilgrim2x.gif; sourceTree = "<group>"; };
+		2C18B86215BA2DD400F1E0A9 /* temperate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = temperate.gif; sourceTree = "<group>"; };
+		2C18B86315BA2DD400F1E0A9 /* tropics.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tropics.gif; sourceTree = "<group>"; };
+		2CDAEA1015BB4DCC00FFAD7A /* datetree.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = datetree.gif; sourceTree = "<group>"; };
+		2CDAEA1315BB4EB800FFAD7A /* arrowleft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arrowleft.gif; sourceTree = "<group>"; };
+		2CDAEA1415BB4EB800FFAD7A /* arrowright.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arrowright.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C18B83315BA2D2100F1E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C18B83B15BA2D2100F1E0A9 /* UIKit.framework in Frameworks */,
+				2C18B83D15BA2D2100F1E0A9 /* Foundation.framework in Frameworks */,
+				2C18B83F15BA2D2100F1E0A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C18B82B15BA2D2100F1E0A9 = {
+			isa = PBXGroup;
+			children = (
+				2C18B84015BA2D2100F1E0A9 /* Food Forest */,
+				2C18B83915BA2D2100F1E0A9 /* Frameworks */,
+				2C18B83715BA2D2100F1E0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C18B83715BA2D2100F1E0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C18B83615BA2D2100F1E0A9 /* Food Forest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C18B83915BA2D2100F1E0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C18B83A15BA2D2100F1E0A9 /* UIKit.framework */,
+				2C18B83C15BA2D2100F1E0A9 /* Foundation.framework */,
+				2C18B83E15BA2D2100F1E0A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C18B84015BA2D2100F1E0A9 /* Food Forest */ = {
+			isa = PBXGroup;
+			children = (
+				2C18B85715BA2DD400F1E0A9 /* resources */,
+				2C18B84915BA2D2100F1E0A9 /* FFAppDelegate.h */,
+				2C18B84A15BA2D2100F1E0A9 /* FFAppDelegate.m */,
+				2C18B84C15BA2D2100F1E0A9 /* MainStoryboard.storyboard */,
+				2C18B84F15BA2D2100F1E0A9 /* FFViewController.h */,
+				2C18B85015BA2D2100F1E0A9 /* FFViewController.m */,
+				2C18B84115BA2D2100F1E0A9 /* Supporting Files */,
+			);
+			path = "Food Forest";
+			sourceTree = "<group>";
+		};
+		2C18B84115BA2D2100F1E0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C18B84215BA2D2100F1E0A9 /* Food Forest-Info.plist */,
+				2C18B84315BA2D2100F1E0A9 /* InfoPlist.strings */,
+				2C18B84615BA2D2100F1E0A9 /* main.m */,
+				2C18B84815BA2D2100F1E0A9 /* Food Forest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C18B85715BA2DD400F1E0A9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C18B85815BA2DD400F1E0A9 /* FF Climate Choice.psd */,
+				2C18B85915BA2DD400F1E0A9 /* FF Welcome.psd */,
+				2C18B85A15BA2DD400F1E0A9 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2C18B85A15BA2DD400F1E0A9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2CDAEA1015BB4DCC00FFAD7A /* datetree.gif */,
+				2CDAEA1315BB4EB800FFAD7A /* arrowleft.gif */,
+				2CDAEA1415BB4EB800FFAD7A /* arrowright.gif */,
+				2C18B85B15BA2DD400F1E0A9 /* arid.gif */,
+				2C18B85C15BA2DD400F1E0A9 /* climates */,
+				2C18B85D15BA2DD400F1E0A9 /* FF-Climate-Choice.gif */,
+				2C18B85E15BA2DD400F1E0A9 /* FF-Welcome.gif */,
+				2C18B85F15BA2DD400F1E0A9 /* med.gif */,
+				2C18B86015BA2DD400F1E0A9 /* pilgrim.gif */,
+				2C18B86115BA2DD400F1E0A9 /* pilgrim2x.gif */,
+				2C18B86215BA2DD400F1E0A9 /* temperate.gif */,
+				2C18B86315BA2DD400F1E0A9 /* tropics.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C18B83515BA2D2100F1E0A9 /* Food Forest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C18B85415BA2D2100F1E0A9 /* Build configuration list for PBXNativeTarget "Food Forest" */;
+			buildPhases = (
+				2C18B83215BA2D2100F1E0A9 /* Sources */,
+				2C18B83315BA2D2100F1E0A9 /* Frameworks */,
+				2C18B83415BA2D2100F1E0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Forest";
+			productName = "Food Forest";
+			productReference = 2C18B83615BA2D2100F1E0A9 /* Food Forest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C18B82D15BA2D2100F1E0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2C18B83015BA2D2100F1E0A9 /* Build configuration list for PBXProject "Food Forest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C18B82B15BA2D2100F1E0A9;
+			productRefGroup = 2C18B83715BA2D2100F1E0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C18B83515BA2D2100F1E0A9 /* Food Forest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C18B83415BA2D2100F1E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C18B84515BA2D2100F1E0A9 /* InfoPlist.strings in Resources */,
+				2C18B84E15BA2D2100F1E0A9 /* MainStoryboard.storyboard in Resources */,
+				2C18B86515BA2DD400F1E0A9 /* FF Climate Choice.psd in Resources */,
+				2C18B86615BA2DD400F1E0A9 /* FF Welcome.psd in Resources */,
+				2C18B86715BA2DD400F1E0A9 /* arid.gif in Resources */,
+				2C18B86815BA2DD400F1E0A9 /* climates in Resources */,
+				2C18B86915BA2DD400F1E0A9 /* FF-Climate-Choice.gif in Resources */,
+				2C18B86A15BA2DD400F1E0A9 /* FF-Welcome.gif in Resources */,
+				2C18B86B15BA2DD400F1E0A9 /* med.gif in Resources */,
+				2C18B86C15BA2DD400F1E0A9 /* pilgrim.gif in Resources */,
+				2C18B86D15BA2DD400F1E0A9 /* pilgrim2x.gif in Resources */,
+				2C18B86E15BA2DD400F1E0A9 /* temperate.gif in Resources */,
+				2C18B86F15BA2DD400F1E0A9 /* tropics.gif in Resources */,
+				2CDAEA1115BB4DCC00FFAD7A /* datetree.gif in Resources */,
+				2CDAEA1515BB4EB800FFAD7A /* arrowleft.gif in Resources */,
+				2CDAEA1615BB4EB800FFAD7A /* arrowright.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C18B83215BA2D2100F1E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C18B84715BA2D2100F1E0A9 /* main.m in Sources */,
+				2C18B84B15BA2D2100F1E0A9 /* FFAppDelegate.m in Sources */,
+				2C18B85115BA2D2100F1E0A9 /* FFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C18B84315BA2D2100F1E0A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C18B84415BA2D2100F1E0A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C18B84C15BA2D2100F1E0A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C18B84D15BA2D2100F1E0A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C18B85215BA2D2100F1E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C18B85315BA2D2100F1E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C18B85515BA2D2100F1E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food Forest/Food Forest-Prefix.pch";
+				INFOPLIST_FILE = "Food Forest/Food Forest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C18B85615BA2D2100F1E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food Forest/Food Forest-Prefix.pch";
+				INFOPLIST_FILE = "Food Forest/Food Forest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C18B83015BA2D2100F1E0A9 /* Build configuration list for PBXProject "Food Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C18B85215BA2D2100F1E0A9 /* Debug */,
+				2C18B85315BA2D2100F1E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C18B85415BA2D2100F1E0A9 /* Build configuration list for PBXNativeTarget "Food Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C18B85515BA2D2100F1E0A9 /* Debug */,
+				2C18B85615BA2D2100F1E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C18B82D15BA2D2100F1E0A9 /* Project object */;
+}
